@@ -1,18 +1,23 @@
+body{
+    margin:0;
+}
+
 .menu-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(65, 62, 62);
     color: white;
-    height: 70;
+    height: 70px;
     padding-left: 40px;
 }
 
-.menu-list{
+.menu{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap:40px;
     cursor: pointer;
+    padding-right: 400px;
 }
 
 .menu-list:hover{
@@ -20,13 +25,78 @@
 }
 
 button{
+    
     border: none;
     border-radius: 4px;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 18px;
-    padding-right: 18px;
-    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 50px;
     font-weight: 100;
     cursor: pointer;
+}
+
+.contact-button{
+    height: 40px;
+    width: 300px;
+}
+button:hover{
+    background-color: #FF7518;
+    color:#fff;
+}
+
+.cat-image{
+    height:400px;
+    width:250px;
+    border-radius: 500px;
+
+}
+
+.hire-me{
+    background-color: black;
+    color:white;
+}
+
+.exp{
+    background-color: #FF7518;
+    color:white;
+}
+
+.text-content{
+    width: 70%;
+}
+
+p{
+    direction: flex;
+    justify-content: start;
+    width:80%;
+    padding: 2px;
+    margin-bottom: 18px;
+}
+
+.img-div{
+    display: flex;
+    justify-content: end;
+    width:30%;
+}
+
+.main-text{
+    display: flex;
+    justify-content: center;
+    height: calc(100dvh - 70px);
+    align-items: center;
+
+}
+
+.inner-box{
+    height: 500px;
+    width:80%;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+h1{
+    margin-top: 10px;
 }
